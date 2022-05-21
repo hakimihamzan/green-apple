@@ -33,7 +33,7 @@ return [
     'facebook' => [
         'client_id' => env('FACEBOOK_CLIENT_ID'),
         'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
-        'redirect' => 'https://demo-green-apple.test/api/auth/facebook/callback',
+        'redirect' => '/api/auth/facebook/callback',
     ],
 
     'google' => [
